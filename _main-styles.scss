@@ -10,8 +10,8 @@ a {
 }
 
 .center {
-    padding-left: calc(50% - 570px);
-    padding-right: calc(50% - 570px);
+    padding-left: calc(50% - 450px);
+    padding-right: calc(50% - 450px);
 }
 
 ul li {
@@ -28,9 +28,15 @@ ul li {
     color: #21243D;
     width: 497px;
 }
-.h4{
+
+.h4 {
     font-style: normal;
-font-weight: normal;
-font-size: 22px;
-line-height: 60px;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 60px;
+}
+
+.a__hover:hover {
+    color: #FF6464;
+    transition: 0.2s;
 }

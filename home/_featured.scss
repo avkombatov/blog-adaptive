@@ -1,0 +1,56 @@
+.featured {
+    &__left {
+        margin-right: 18px;
+    }
+
+    &__block {
+        display: flex;
+
+    }
+
+    &__h3 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 44px;
+        color: #21243D;
+    }
+
+    &__date {
+        background: #142850;
+        border-radius: 16px;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 60px;
+        padding: 0px 8px 0px 8px;
+        color: #FFFFFF;
+        margin-right: 26px;
+    }
+
+    &__type {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 29px;
+        color: #8695A4;
+    }
+    &__p{
+        width: 594px;
+    }
+
+    &__h4 {
+        margin-left: 15px;
+    }
+
+    &__block {
+        margin-left: 15px;
+    }
+    &__hr{
+        width: 828px;
+        border: 1px solid #E0E0E0;
+        margin-left: 15px;
+        margin-top: 15px;
+        margin-bottom: 29px;
+    }
+}

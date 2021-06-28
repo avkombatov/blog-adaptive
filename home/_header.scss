@@ -39,10 +39,7 @@
             display: none;
         }
 
-        &:hover {
-            color: #FF6464;
-            transition: 0.3s;
-        }
+
     }
 }
 
@@ -72,7 +69,8 @@
             flex-direction: column-reverse;
             margin-top: 33px;
         }
-        &__right{
+
+        &__right {
             margin: 0 auto;
         }
 
@@ -80,9 +78,9 @@
             width: 280px;
             font-size: 14px;
             margin: 20px auto;
-         
+
             line-height: 22px;
-          
+
             text-align: center;
         }
 
@@ -104,7 +102,12 @@
             }
         }
     }
-    .button{
+
+    .text {
+        font-size: 14px;
+    }
+
+    .button {
         margin: 0 auto;
     }
 }
