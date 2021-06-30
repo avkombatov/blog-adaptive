@@ -1,7 +1,8 @@
 .blog {
-    &__h1{
+    &__h1 {
         margin-top: 106px;
     }
+
     &__a {
         margin-top: 106px;
         font-style: normal;
@@ -43,6 +44,212 @@
         width: 680px;
         border: 1px solid #E0E0E0;
         margin-bottom: 32px;
+    }
+
+}
+
+.active {
+    color: #FF6464;
+}
+
+@media(max-width:950px)and(min-width:768px) {
+    .blog {
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+}
+
+@media(max-width:767px)and(min-width:580px) {
+    .blog {
+        padding-left: 7%;
+        padding-right: 7%;
+
+        &__hr {
+            width: 495px;
+
+        }
+
+        &__h1 {
+            margin-top: 10px;
+        }
+
+        &__p {
+            width: 500px;
+            margin-left: 0;
+        }
+
+        &__header {
+            height: 50px;
+        }
+    }
+
+
+
+    .menu__link {
+        display: none;
+    }
+
+    .menu__link_mobile {
+        display: block;
+    }
+
+    .text {
+        text-align: left;
+    }
+}
+
+@media(max-width:579px)and(min-width:425px) {
+    .blog {
+        padding-left: 7%;
+        padding-right: 7%;
+
+        &__h1 {
+            margin-top: 10px;
+        }
+
+        &__p {
+            width: auto;
+            text-align: left;
+            margin-left: 0;
+        }
+
+        &__hr {
+            width: 375px;
+            margin: 0 auto 15px;
+        }
+        &__header {
+        height: 50px;
+    }
+    }
+
+    
+}
+
+@media(max-width:424px)and(min-width:375px) {
+    .blog {
+        padding-left: 7%;
+        padding-right: 7%;
+
+        &__h1 {
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 60px;
+            margin-bottom: 18px;
+            margin-top: 10px;
+        }
+
+        &__a {
+            font-weight: 500;
+            font-size: 26px;
+            line-height: 38px;
+        }
+
+        &__date {
+            margin-bottom: 17px;
+
+            &_style {
+                font-size: 16px;
+                line-height: 23px;
+            }
+
+            &_style2 {
+                font-size: 16px;
+                line-height: 23px;
+            }
+        }
+
+        &__p {
+            font-size: 16px;
+            line-height: 23px;
+            margin-bottom: 24px;
+            width: 320px;
+
+        }
+
+        &__hr {
+            width: 330px;
+        }
+
+        .text {
+            text-align: left;
+            margin-left: 0;
+        }
+        &__header {
+            height: 50px;
+        }
+
+    }
+
+    
+
+    .footer {
+        margin-left: 44px;
+    }
+
+}
+
+@media(max-width:374px)and(min-width:320px) {
+    .blog {
+        padding-left: 5%;
+        padding-right: 5%;
+
+        &__h1 {
+            font-weight: bold;
+            font-size: 26px;
+            line-height: 60px;
+            margin-bottom: 15px;
+            margin-top: 10px;
+        }
+
+        &__a {
+            font-weight: 500;
+            font-size: 19px;
+            line-height: 38px;
+        }
+
+        &__date {
+            margin-bottom: 15px;
+
+            &_style {
+                font-size: 14px;
+                line-height: 23px;
+            }
+
+            &_style2 {
+                font-size: 14px;
+                line-height: 23px;
+            }
+        }
+
+        &__p {
+            font-size: 13px;
+            line-height: 20px;
+            margin-bottom: 20px;
+            width: 300px;
+
+        }
+
+        &__hr {
+            width: 290px;
+        }
+        &__header {
+            height: 50px;
+        }
+
+        .text {
+            text-align: left;
+        }
+
+    }
+
+   
+
+    .footer {
+        margin-left: 44px;
+
+        .social__a {
+            margin-right: 25px;
+        }
     }
 
 }
