@@ -76,6 +76,7 @@
         &__p {
             width: 500px;
             margin-left: 0;
+            text-align: left;
         }
 
         &__header {
@@ -93,9 +94,9 @@
         display: block;
     }
 
-    .text {
-        text-align: left;
-    }
+    // .text {
+    //     text-align: left;
+    // }
 }
 
 @media(max-width:579px)and(min-width:425px) {
